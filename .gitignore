@@ -15,7 +15,6 @@
 *.log
 *.sql
 *.sqlite
-*.json
 
 # BlueJ files
 *.ctxt
@@ -52,5 +51,36 @@ hs_err_pid*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignore these please
+*.DS_Store
+*.classpath
+*.class
+*.project
+*.out
+/outputs/
+/bin/
+_scratch
+_ren.para
+.nodel
+*.pyc
+
+# Node specific
+_script_example.py
+_nodeConfig_schema.json
+_nodeConfig_example.json
+_example.pysp
+script_backup_*.py
+
+# Justin's list
+*.lastHTTPPort
+*example
+_*_schema.json
+recipes
+*.lock
+*_backup_*
+*/logs/*
+*.class
+.nodel
 
 
